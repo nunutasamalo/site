@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #1e1e1e;
+    text-align: left;
+  }
+
+
+
+  h1, h2, h3, h4 {
+    line-height: 1.2em;
+  }
+  h1 {
+    font-size: 2em;
+    margin: .67em 0;
+  }
+
+  .container {
+    margin: auto;
+    max-width: 75rem;
+}
+  
+  .header-wrapper{
+    border-bottom: 1px solid #dbdbdb;
+    background: #f8f8f8;
+    box-shadow: 0 1px 1px rgba(35,31,32,0.2);
+    
+  }
+
+  .navbar-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-container li{
+    list-style: none;
+  }
+
+  .navbar-links{
+    display: flex;
+    min-width: 680px;
+    justify-content: space-around;
+    min-height: 8vh;
+    align-items: center;
+  }
+
+  .navbar-links a{
+    color: #23233f;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: .625rem;
+    letter-spacing: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    height: 100%;
+}
+
+
+  .logo-image {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+  }
+
+  .navbar-search{
+    display: flex;
+    min-height: 8vh;
+    align-items: center;
+  }
+  .navbar-search a{
+    color: #23233f;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: .625rem;
+    letter-spacing: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.hero-section-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* .hero-image img {
+    object-fit: cover;
+    border-radius: 5%;
+    width: 40%;
+    height: 600px;
+  } */
+
+  /* .hero-content h1{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+  
+  }
+   */
+
+  
+
+
+
+/* font-family: 'Raleway', sans-serif; */
+
+/* color: #23233f; */
+
+@media only screen and (max-width: 810px) {
+    body {
+      background-color: white;
+    }
+
+  }
+
+  @media only screen and (min-width: 1200px)
+  {
+    .hero-content h1 {
+        font-size: 3.75rem;
+        letter-spacing: -.075rem;
+        line-height: 4.5rem;
+  }
+}
+
+
+@media only screen and (min-width: 768px){
+    .hero-content h1 {
+        font-size: 2.8125rem;
+  letter-spacing: -.05625rem;
+  line-height: 3.375rem;
+  }
+}
